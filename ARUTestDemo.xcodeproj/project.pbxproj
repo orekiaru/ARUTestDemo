@@ -3,18 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EF6A028A8291E407D8635D7 /* libPods-ARUTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F08C586807996B96EF644C3F /* libPods-ARUTestDemo.a */; };
+		AE058E7A241E7F4D00908A75 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE058E79241E7F4D00908A75 /* NextViewController.m */; };
 		AE28586C241CD23500B1F5C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28586B241CD23500B1F5C1 /* AppDelegate.m */; };
 		AE28586F241CD23500B1F5C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28586E241CD23500B1F5C1 /* ViewController.m */; };
-		AE285872241CD23500B1F5C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE285870241CD23500B1F5C1 /* Main.storyboard */; };
 		AE285874241CD23600B1F5C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE285873241CD23600B1F5C1 /* Assets.xcassets */; };
 		AE285877241CD23600B1F5C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE285875241CD23600B1F5C1 /* LaunchScreen.storyboard */; };
 		AE28587A241CD23600B1F5C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE285879241CD23600B1F5C1 /* main.m */; };
 		AE285884241CD23600B1F5C1 /* ARUTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE285883241CD23600B1F5C1 /* ARUTestDemoTests.m */; };
 		AE28588F241CD23600B1F5C1 /* ARUTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28588E241CD23600B1F5C1 /* ARUTestDemoUITests.m */; };
+		AEA2C72D241EA21F0098DC73 /* GCDComputeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C72C241EA21F0098DC73 /* GCDComputeViewController.m */; };
+		AEA2C730241EAB7A0098DC73 /* AFNetWorkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C72F241EAB7A0098DC73 /* AFNetWorkingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D448A0211C9549B234A97DD /* Pods-ARUTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARUTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-ARUTestDemo/Pods-ARUTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		91153018612A0AA560D894B9 /* Pods-ARUTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARUTestDemo.release.xcconfig"; path = "Target Support Files/Pods-ARUTestDemo/Pods-ARUTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AE058E78241E7F4D00908A75 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		AE058E79241E7F4D00908A75 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		AE285867241CD23500B1F5C1 /* ARUTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARUTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE28586A241CD23500B1F5C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE28586B241CD23500B1F5C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE28586D241CD23500B1F5C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AE28586E241CD23500B1F5C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE285871241CD23500B1F5C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE285873241CD23600B1F5C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE285876241CD23600B1F5C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE285878241CD23600B1F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,11 @@
 		AE28588A241CD23600B1F5C1 /* ARUTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARUTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE28588E241CD23600B1F5C1 /* ARUTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARUTestDemoUITests.m; sourceTree = "<group>"; };
 		AE285890241CD23600B1F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA2C72B241EA21F0098DC73 /* GCDComputeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDComputeViewController.h; sourceTree = "<group>"; };
+		AEA2C72C241EA21F0098DC73 /* GCDComputeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDComputeViewController.m; sourceTree = "<group>"; };
+		AEA2C72E241EAB7A0098DC73 /* AFNetWorkingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetWorkingViewController.h; sourceTree = "<group>"; };
+		AEA2C72F241EAB7A0098DC73 /* AFNetWorkingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkingViewController.m; sourceTree = "<group>"; };
+		F08C586807996B96EF644C3F /* libPods-ARUTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARUTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF6A028A8291E407D8635D7 /* libPods-ARUTestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2E61A0F21DB71096FD322C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D448A0211C9549B234A97DD /* Pods-ARUTestDemo.debug.xcconfig */,
+				91153018612A0AA560D894B9 /* Pods-ARUTestDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AE28585E241CD23500B1F5C1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,8 @@
 				AE285882241CD23600B1F5C1 /* ARUTestDemoTests */,
 				AE28588D241CD23600B1F5C1 /* ARUTestDemoUITests */,
 				AE285868241CD23500B1F5C1 /* Products */,
+				3E2E61A0F21DB71096FD322C /* Pods */,
+				F68FF8B77D2E9681E0A8D1F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +126,14 @@
 			children = (
 				AE28586A241CD23500B1F5C1 /* AppDelegate.h */,
 				AE28586B241CD23500B1F5C1 /* AppDelegate.m */,
+				AE058E78241E7F4D00908A75 /* NextViewController.h */,
+				AE058E79241E7F4D00908A75 /* NextViewController.m */,
 				AE28586D241CD23500B1F5C1 /* ViewController.h */,
 				AE28586E241CD23500B1F5C1 /* ViewController.m */,
-				AE285870241CD23500B1F5C1 /* Main.storyboard */,
+				AEA2C72B241EA21F0098DC73 /* GCDComputeViewController.h */,
+				AEA2C72C241EA21F0098DC73 /* GCDComputeViewController.m */,
+				AEA2C72E241EAB7A0098DC73 /* AFNetWorkingViewController.h */,
+				AEA2C72F241EAB7A0098DC73 /* AFNetWorkingViewController.m */,
 				AE285873241CD23600B1F5C1 /* Assets.xcassets */,
 				AE285875241CD23600B1F5C1 /* LaunchScreen.storyboard */,
 				AE285878241CD23600B1F5C1 /* Info.plist */,
@@ -132,6 +160,14 @@
 			path = ARUTestDemoUITests;
 			sourceTree = "<group>";
 		};
+		F68FF8B77D2E9681E0A8D1F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F08C586807996B96EF644C3F /* libPods-ARUTestDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE285893241CD23600B1F5C1 /* Build configuration list for PBXNativeTarget "ARUTestDemo" */;
 			buildPhases = (
+				C6729909312ABD15E53EA560 /* [CP] Check Pods Manifest.lock */,
 				AE285863241CD23500B1F5C1 /* Sources */,
 				AE285864241CD23500B1F5C1 /* Frameworks */,
 				AE285865241CD23500B1F5C1 /* Resources */,
+				F6DE25F266C9EAFFA1C43D75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +275,6 @@
 			files = (
 				AE285877241CD23600B1F5C1 /* LaunchScreen.storyboard in Resources */,
 				AE285874241CD23600B1F5C1 /* Assets.xcassets in Resources */,
-				AE285872241CD23500B1F5C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +294,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C6729909312ABD15E53EA560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARUTestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DE25F266C9EAFFA1C43D75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARUTestDemo/Pods-ARUTestDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARUTestDemo/Pods-ARUTestDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARUTestDemo/Pods-ARUTestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE285863241CD23500B1F5C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA2C72D241EA21F0098DC73 /* GCDComputeViewController.m in Sources */,
+				AEA2C730241EAB7A0098DC73 /* AFNetWorkingViewController.m in Sources */,
 				AE28586F241CD23500B1F5C1 /* ViewController.m in Sources */,
+				AE058E7A241E7F4D00908A75 /* NextViewController.m in Sources */,
 				AE28587A241CD23600B1F5C1 /* main.m in Sources */,
 				AE28586C241CD23500B1F5C1 /* AppDelegate.m in Sources */,
 			);
@@ -300,14 +382,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE285870241CD23500B1F5C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE285871241CD23500B1F5C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE285875241CD23600B1F5C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +507,7 @@
 		};
 		AE285894241CD23600B1F5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D448A0211C9549B234A97DD /* Pods-ARUTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +524,7 @@
 		};
 		AE285895241CD23600B1F5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91153018612A0AA560D894B9 /* Pods-ARUTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
